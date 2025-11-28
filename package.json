@@ -1,5 +1,5 @@
 {
-  "name": "@jobber/google-maps-react-community",
+  "name": "@getjobber/google-maps-react-community",
   "version": "2.0.8",
   "description": "Google maps container",
   "author": "Fullstack.io <us@fullstack.io>",
@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/GetJobber/google-maps-react.git"
   },
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
   "main": "dist/index.js",
   "files": [
     "dist",
